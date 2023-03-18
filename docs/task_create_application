@@ -18,6 +18,15 @@ This will create a new Backstage App inside the current folder. The name of the 
 
 ![](https://backstage.io/assets/images/create-app_output-aae53df8840c4eb4413b2e0d22248db5.png)
 
+Intiially it will ask to install *backstage/create-app* package 
+
+
+```
+Need to install the following packages:
+  @backstage/create-app
+Ok to proceed? (y) 
+```
+
 
 ## Details of the file created
 
@@ -31,3 +40,12 @@ lerna.json: Contains information about workspaces and other lerna configuration 
 
 
 More Details can be found in [here](https://backstage.io/docs/getting-started/create-an-app)
+
+## TroubleShoot 
+
+### Node Version
+Nodejs version should be 16|| 18
+```
+  executing     yarn install ◝ error root@1.0.0: The engine "node" is incompatible with this module. Expected version "16 || 18". Got "14.18.2"
+ ````
+
