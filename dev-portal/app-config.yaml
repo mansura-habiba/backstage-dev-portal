@@ -94,11 +94,41 @@ catalog:
         - allow: [User, Group]
 
     ## Uncomment these lines to add more example data
-    # - type: url
-    #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
 
     ## Uncomment these lines to add an example org
-    # - type: url
-    #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
-    #   rules:
-    #     - allow: [User, Group]
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
+      rules:
+        - allow: [User, Group]
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/contents/all-components.yaml
+
+    # Backstage example systems
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/contents/all-systems.yaml
+
+    # Backstage example APIs
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/contents/all-apis.yaml
+
+    # Backstage example organization groups
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/contents/acme/org.yaml
+
+    # Backstage example domains
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/contents/all-domains.yaml
+
+    # Backstage example resources
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/contents/all-resources.yaml
+
+    # The backstage demo deployment (this)
+    - type: url
+      target: https://github.com/backstage/demo/blob/master/catalog-info.yaml
+
+    # The backstage library repository
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/catalog-info.yaml 
