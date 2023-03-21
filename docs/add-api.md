@@ -33,7 +33,7 @@ This is added to the **app-config.yaml** file  as follows
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
     - type: file
       target: ../../examples/entities.yaml
-  ```
+ ```
   
   We can add more detailed APi defnition like this [one](https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/apis/hello-world-api.yaml)
   
@@ -83,6 +83,8 @@ spec:
   ```
   
   More example can be found [here](https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/apis/)
+  
+  
   OR Any Open API [like this one](https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/apis/spotify-api.yaml)
   
   ```
@@ -103,7 +105,7 @@ spec:
   owner: team-a
   definition:
     $text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/spotify.com/2021.4.2/openapi.yaml
-    ```
+ ```
     
   
   Once this yaml files are added to the app-config.yaml file they will be available to the catalog with swagger docuemnattion. For example 
