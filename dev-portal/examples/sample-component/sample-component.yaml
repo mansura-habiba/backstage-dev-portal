@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-component
+  title : Sample Component with Documentation
+  description: >
+    This is a sample component with documenattion
+  ownership:
+    team: team-a
+    directorate: Team A
+
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
+  dependsOn: ['component:audio-playback']
