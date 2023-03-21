@@ -1,8 +1,8 @@
 # backstage-dev-portal
 
-Here are different repo with different example 
+Here are different Branch with different example 
 
-|#|repo name| Description|
+|#|Branch name| Description|
 |---|---|---|
 |1|catalog-entry| The examples of catalog, system, resources and others|
 |2|backstage-documentation| The example for creating Documentation
